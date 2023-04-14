@@ -1,5 +1,5 @@
 
-# Olyn - An Automated Debian DevOps Framework for Chef
+# Olyn - An Automated DevOps Framework for Chef
 
 Olyn is a bundle of custom Chef cookbooks to build and deploy functional clustered Debian web servers with globally replicated multi-write MySQL databases. All of this is done using infrastructure-as-code and configuration files.
 
