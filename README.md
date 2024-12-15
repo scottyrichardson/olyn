@@ -39,23 +39,23 @@ Each cookbook has its own repo and individual instructions if needed.
 
 | Cookbook | Description |
 | -- | -- |
-| [olyn_init](https://github.com/olyn-chef/olyn_init) | Initializes and runs all installed Olyn cookbooks. |
-| [olyn_apt](https://github.com/olyn-chef/olyn_apt) | Configures APT. Sets up custom repos. |
-| [olyn_database](https://github.com/olyn-chef/olyn_database) | Initializes databases. Creates database users. Configures user permissions. Imports SQL files. |
-| [olyn_fail2ban](https://github.com/olyn-chef/olyn_fail2ban) | Installs Fail2Ban. Configures jails and ban durations. |
-| [olyn_git](https://github.com/olyn-chef/olyn_git) | Installs Git. Sets up Git users. Maps CI/CD repos to file directory locations. Builds virtual WWW roots. Configures folder and file permissions. Syncs and deploys new commits. |
-| [olyn_haproxy](https://github.com/olyn-chef/olyn_haproxy) | Installs HAProxy. Configures front-end and back-end listeners. Sets up SSL offloading. |
-| [olyn_litespeed](https://github.com/olyn-chef/olyn_litespeed) | Configures Openlitespeed apt repos. Installs Openlitespeed package. Configures VHOSTS, TLS certificates, PHP, admin portal, and security. |
-| [olyn_logwatch](https://github.com/olyn-chef/olyn_logwatch) | Installs LogWatch. Sets up log monitoring and email alerts. |
-| [olyn_openssh](https://github.com/olyn-chef/olyn_openssh) | Installs openSSH. Configures SSH ports and security. |
-| [olyn_percona](https://github.com/olyn-chef/olyn_percona) | Configures Percona apt repos. Installs Percona. Configures replication settings, TLS encryption, and node member list. Bootstraps and/or joins the replicated MySQL database cluster. |
-| [olyn_postfix](https://github.com/olyn-chef/olyn_postfix) | Installs Postfix. Configures relay host. |
-| [olyn_sendmail](https://github.com/olyn-chef/olyn_sendmail) | Uninstalls sendmail. |
-| [olyn_sudo](https://github.com/olyn-chef/olyn_sudo) | Installs sudo. Configures sudo group membership for users. |
-| [olyn_system](https://github.com/olyn-chef/olyn_system) | Configures Debian OS. Adds cluster nodes to hosts file. Installs base apt packages. Securely installs public and private keys from TLS certificates in data bag. Sets timezone. Creates users and configures permissions. |
-| [olyn_ufw](https://github.com/olyn-chef/olyn_ufw) | Installs UFW. Configures rules for ports, hosts, and protocols. Adds default deny rule. Reloads configuration. |
-| [olyn_varnish](https://github.com/olyn-chef/olyn_varnish) | Installs Varnish. Creates front-end and back-end listeners. Compiles VCL rules for content expiration. |
-| [olyn_warmer](https://github.com/olyn-chef/olyn_warmer) | Installs Nokogiri Ruby gem. Imports sitemaps URLs. Rewarms URLs from sitemaps in Varnish HTTP cache. |
+| [olyn_init](https://github.com/scottyrichardson/olyn_init) | Initializes and runs all installed Olyn cookbooks. |
+| [olyn_apt](https://github.com/scottyrichardson/olyn_apt) | Configures APT. Sets up custom repos. |
+| [olyn_database](https://github.com/scottyrichardson/olyn_database) | Initializes databases. Creates database users. Configures user permissions. Imports SQL files. |
+| [olyn_fail2ban](https://github.com/scottyrichardson/olyn_fail2ban) | Installs Fail2Ban. Configures jails and ban durations. |
+| [olyn_git](https://github.com/scottyrichardson/olyn_git) | Installs Git. Sets up Git users. Maps CI/CD repos to file directory locations. Builds virtual WWW roots. Configures folder and file permissions. Syncs and deploys new commits. |
+| [olyn_haproxy](https://github.com/scottyrichardson/olyn_haproxy) | Installs HAProxy. Configures front-end and back-end listeners. Sets up SSL offloading. |
+| [olyn_litespeed](https://github.com/scottyrichardson/olyn_litespeed) | Configures Openlitespeed apt repos. Installs Openlitespeed package. Configures VHOSTS, TLS certificates, PHP, admin portal, and security. |
+| [olyn_logwatch](https://github.com/scottyrichardson/olyn_logwatch) | Installs LogWatch. Sets up log monitoring and email alerts. |
+| [olyn_openssh](https://github.com/scottyrichardson/olyn_openssh) | Installs openSSH. Configures SSH ports and security. |
+| [olyn_percona](https://github.com/scottyrichardson/olyn_percona) | Configures Percona apt repos. Installs Percona. Configures replication settings, TLS encryption, and node member list. Bootstraps and/or joins the replicated MySQL database cluster. |
+| [olyn_postfix](https://github.com/scottyrichardson/olyn_postfix) | Installs Postfix. Configures relay host. |
+| [olyn_sendmail](https://github.com/scottyrichardson/olyn_sendmail) | Uninstalls sendmail. |
+| [olyn_sudo](https://github.com/scottyrichardson/olyn_sudo) | Installs sudo. Configures sudo group membership for users. |
+| [olyn_system](https://github.com/scottyrichardson/olyn_system) | Configures Debian OS. Adds cluster nodes to hosts file. Installs base apt packages. Securely installs public and private keys from TLS certificates in data bag. Sets timezone. Creates users and configures permissions. |
+| [olyn_ufw](https://github.com/scottyrichardson/olyn_ufw) | Installs UFW. Configures rules for ports, hosts, and protocols. Adds default deny rule. Reloads configuration. |
+| [olyn_varnish](https://github.com/scottyrichardson/olyn_varnish) | Installs Varnish. Creates front-end and back-end listeners. Compiles VCL rules for content expiration. |
+| [olyn_warmer](https://github.com/scottyrichardson/olyn_warmer) | Installs Nokogiri Ruby gem. Imports sitemaps URLs. Rewarms URLs from sitemaps in Varnish HTTP cache. |
 
 ## Local Dev Setup
 
